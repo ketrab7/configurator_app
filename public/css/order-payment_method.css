@@ -1,0 +1,12 @@
+.button {
+    border:none;
+    margin:0; 
+    padding:0; 
+    outline: none;
+    cursor:pointer;
+    border-radius:4px;
+}
+.active, .button:hover {
+    outline: 2px solid #666;
+    border-radius:4px;
+}
